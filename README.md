@@ -46,18 +46,28 @@ Ollama · Qdrant · Flowise · n8n · RAG architectures
 ## Featured projects
 
 ### [InfraGuardian](https://github.com/jmiconi/infraguardian)
-Open and extensible infrastructure observability platform for heterogeneous Windows and Linux environments.
-
+Open and extensible observability platform for heterogeneous Windows and Linux infrastructure.  
 `Python` `PowerShell` `Docker` `PostgreSQL` `Grafana`
 
-**Focus:** metric collection, historical analysis, multi-host monitoring and infrastructure observability.
+### [Windows Infrastructure Automation](https://github.com/jmiconi/windows-infra-automation)
+Sanitized PowerShell patterns for Active Directory inventory, Group Policy diagnostics and repeatable Windows operations.  
+`PowerShell` `Active Directory` `GPO` `Windows Server`
+
+### [PXE Deployment Lab](https://github.com/jmiconi/pxe-deployment-lab)
+Network-based Windows deployment architecture using PXE, iPXE, TFTP, HTTP and WinPE.  
+`Linux` `iPXE` `WinPE` `TFTP` `Nginx`
+
+### [Infrastructure Observability Lab](https://github.com/jmiconi/observability-lab)
+Centralized infrastructure logging patterns with Grafana Alloy, Loki and Grafana, including Windows Event Log ingestion and LogQL diagnostics.  
+`Grafana Alloy` `Loki` `Grafana` `LogQL` `Windows`
+
+### [On-Prem RAG Infrastructure](https://github.com/jmiconi/onprem-rag-infrastructure)
+Reference architecture for local LLM serving, vector retrieval, ingestion, evaluation and knowledge governance.  
+`Ollama` `Qdrant` `RAG` `n8n` `Flowise`
 
 ### [Infra Health Monitor](https://github.com/jmiconi/infra-health-monitor)
-Lightweight infrastructure health-check service designed around auditable Bash scripts and native systemd operation.
-
+Lightweight infrastructure health-check service built around auditable Bash scripts and native systemd operation.  
 `Bash` `systemd` `SQL Server` `SMB` `Linux`
-
-**Focus:** service availability, latency measurement, externalized secrets and operational diagnostics.
 
 ---
 
@@ -76,15 +86,9 @@ I use GitHub to publish sanitized, reproducible versions of real infrastructure 
 
 ---
 
-## Currently building
+## Portfolio direction
 
-This portfolio is being expanded with practical infrastructure case studies around:
-
-- Windows infrastructure automation
-- PXE / network operating-system deployment
-- centralized logging and observability
-- on-premise AI and RAG infrastructure
-- infrastructure knowledge and operational governance
+This portfolio focuses on real infrastructure engineering patterns: deployment, diagnosis, observability, automation, operational governance and on-premise AI platforms. Projects are progressively expanded with reproducible examples, diagrams and runbooks.
 
 ---
 
